@@ -1,0 +1,235 @@
+.nav {
+    width: 100%;
+    height: 79px;
+    background: white;
+    position: relative;
+    /*position: fixed;*/
+}
+
+.nav-content {
+    /*background: white;*/
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+    background: white;
+    /*position: fixed;*/
+}
+
+.logo {
+    margin-top: 14px;
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+/*a是行内元素，无宽高属性*/
+.nav-list li .active{
+    color: #16b0dc;
+}
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 602px;
+    height: 100%;
+}
+.nav-list li{
+    list-style: none;
+    float: left;
+    width: 86px;
+    height: 100%;
+    /*background: rgba(255,255,0,0.5);*/
+}
+.nav-list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size:14px;
+    transition: .5s;
+}
+.nav-list li a:hover{
+    color: #16b0dc;
+}
+/*导航栏结束*/
+
+
+/*图片开始*/
+.content{
+    width: 1860px;
+    height: 979px;
+    /*background: #d0e1eb;*/
+}
+.content .image-item{
+    width: 620px;
+    height: 490px;
+    background: #f6ecc8;
+    transition: 0.3s;
+    overflow: hidden;
+    float: left;
+}
+.content .image-item img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+.content .image-item .image-text{
+    width: 120px;
+    height: 137px;
+    /*background: #b3dcb0;*/
+    position: absolute;
+    left: 250px;
+    top: 255px;
+}
+.content .image-item .image-text p:nth-child(1){
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    text-align: center;
+}
+.content .image-item .image-text .line{
+    width: 20px;
+    height: 2px;
+    margin: 15px auto;
+    background: rgba(255,255,255,0.75);;
+}
+.content .image-item .image-text .big-title{
+    width: 120px;
+    height: 28px;
+    /*background: #fefe7a;*/
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(255,255,255,0.75);
+}
+.content .image-item .image-text .button{
+    width: 58px;
+    height: 34px;
+    /*background: #ff6700;*/
+    margin: 0 auto;
+}
+.content .image-item .image-text .button button{
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: rgba(255,255,255,0.75);
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid     rgba(255,255,255,0.8);;
+    background: none;
+}
+.black{
+    width: 620px;
+    height: 490px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 79px;
+}
+
+.content .image-item img:hover{
+    transform: scale(1.1);
+}
+.content .image-item:hover .image-text p{
+    color: white;
+}
+.content .image-item:hover .image-text .line{
+    background: white;
+}
+.content .image-item:hover .image-text .button button{
+    border: 1px solid white;
+    color: white;
+    border-radius: 3px;
+}
+
+.white{
+    width: 100%;
+    height: 20px;
+    background: white;
+}
+
+
+.finally-box{
+    width: 100%;
+    height: 165px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+}
+
+/*.finally-text .text1 a{*/
+/*color: #32a8ea;*/
+/*}*/
+
+.finally-logo{
+    width: 100%;
+    height: 46px;
+    padding: 5px 0;
+    margin-top:20px;
+    /*margin-bottom: 5px;*/
+    /*background: #000;*/
+}
+.finally-logo .finally-list .finally-item img{
+    width: 26px;
+    height: 26px;
+    margin-right: 12px;
+}
+.finally-logo .finally-list .finally-item{
+    float: left;
+    line-height: 40px;
+}
+
+
+.finally-box .finally-logo .finally-list{
+    width: 140px;
+    height: 40px;
+    /*background: red;*/
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+.finally-text{
+    width: 1280px;
+    height: 100px;
+    /*background: #f3cfd3;*/
+    margin: 0 auto;
+}
+.finally-text p{
+    width: 100%;
+    height: 25px;
+    /*background: #aad1e2;*/
+    text-align: center;
+}
+.finally-text p a{
+    font-size: 14px;
+    color: #62a8ea;
+}
+.finally-text p:nth-child(3),.finally-text p:nth-child(4){
+    font-size: 14px;
+    color: #aaaaaa;
+
+}
+.finally-text p:nth-child(2) a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.finally-text p:nth-child(2) {
+    transition: 0.5s;
+}
+
+
+
+
+
+
+

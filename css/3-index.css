@@ -1,0 +1,359 @@
+.nav {
+    width: 100%;
+    height: 78px;
+    background: white;
+    position: fixed;
+    top: 0;
+    border-bottom:  1px solid #ececec;
+    /*left: 260px;*/
+}
+.last{
+    width: 100%;
+    height: 90px;
+    background: #f1f1f1;
+}
+.nav-content {
+    /*background: white;*/
+    width: 1170px;
+    height: 79px;
+    /*margin: 0 auto;*/
+    position: fixed;
+    top: 0;
+    left: 260px;
+    /*margin:auto;*/
+}
+
+.logo {
+    margin-top: 14px;
+    width: 150px;
+    height: 50px;
+    float: left;
+}
+/*a是行内元素，无宽高属性*/
+.nav-list li .active{
+    color: #16b0dc;
+}
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    float: right;
+    width: 602px;
+    height: 79px;
+}
+.nav-list li{
+    list-style: none;
+    float: left;
+    width: 86px;
+    height: 100%;
+    /*background: rgba(255,255,0,0.5);*/
+}
+.nav-list li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size:14px;
+    transition: .5s;
+}
+.nav-list li a:hover{
+    color: #16b0dc;
+}
+
+/*花言花语开始*/
+.banner{
+    width: 100%;
+    height: 120px;
+    background: #f1f1f1;
+    color: #f67a82;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 120px;
+}
+.banner-bottom{
+    width: 100%;
+    height: 1181px;
+    background: #f2f2f2;
+    padding: 30px 0;
+}
+.content{
+    width: 1310px;
+    height: 100%;
+    padding: 0;
+    /*background: #bbbedf;*/
+    margin: 0 auto;
+}
+.content .left{
+    width: 923px;
+    height: 1121px;
+    background: white;
+    float: left;
+    padding: 30px;
+}
+.content .left ul{
+    width: 100%;
+    height: 1091px;
+    /*background: #c69c9d;*/
+    padding: 0;
+    /*margin-bottom: 11px;*/
+    margin-top:0;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*flex-wrap: wrap;*/
+}
+.content .left ul li:nth-child(4){
+    height: 176px;
+}
+.content .left ul li{
+    width: 100%;
+    height: 160px;
+    border-bottom: 1px solid #f0f2f5;
+    /*background: #b3d8e0;*/
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.content .left ul li .image{
+    width: 160px;
+    height: 160px;
+    /*background: #dbd3c8;*/
+    float: left;
+}
+.content .left ul li .image img{
+    width: 100%;
+    height: 100%;
+}
+.content .left ul li .text{
+    width: 742px;
+    height: 176px;
+    /*background: #fffaf4;*/
+    float: right;
+}
+.content .left ul li .text h1{
+    width: 100%;
+    height: 26px;
+    /*background: #ffc6c2;*/
+    margin-bottom: 20px;
+
+}
+.content .left ul li .text h1 a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.content .left ul li .text h1 a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #2a333c;
+    transition: 0.3s;
+}
+.content .left ul li .text .one-line{
+    width: 100%;
+    height: auto;
+    color: #76838f;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.content .left ul li .text .two-line{
+    width: 100%;
+    height: 24px;
+    /*background: #f58112;*/
+}
+.content .left ul li .text .two-line span{
+    width: auto;
+    height: auto;
+    font-size: 16px;
+    color: #a3afb7;
+    font-weight: 300;
+}
+.content .left ul li .text .two-line span:nth-child(2){
+    margin-left: 10px;
+}
+.content .left ul li .text .two-line span:nth-child(3){
+    margin-left: 10px;
+}
+
+/*右边开始*/
+.right{
+    width: 257px;
+    height: 314px;
+    padding: 20px;
+    background: white;
+    float: left;
+    margin-left: 30px;
+}
+.input-search{
+    width: 100%;
+    height: 36px;
+    /*background: #ffdfd3;*/
+    margin-bottom: 20px;
+}
+.input-search input{
+    width: 191px;
+    height: 22px;
+    padding: 6px 50px 6px 15px;
+    border: 1px solid #f0f2f5;
+    border-radius: 20px;
+}
+button{
+    width: 20px;
+    height: 100%;
+    padding: 0 10px;
+    float: right;
+    /*background: #c8b79b;*/
+}
+.right-middle{
+    width: 100%;
+    height: 161px;
+    padding: 20px 0;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+    /*margin: 20px 0 20px 0;*/
+    margin-bottom: 20px;
+    margin-top: 20px;
+    /*background: #ff6700;*/
+
+
+}
+.right-middle h3{
+    width: 100%;
+    height: 21px;
+    /*background: #b3fac0;*/
+    font-size: 18px;
+    font-weight: 300;
+    color: #37474f;
+    line-height: 21px;
+}
+.right-middle .recommend{
+    width: 100%;
+    height: 130px;
+    /*background: #dbd3c8;*/
+    padding: 0;
+
+}
+.right-middle .recommend li{
+    width: 226px;
+    height: 22px;
+    padding: 10px 15px;
+    border: 1px solid #f0f2f5;
+}
+.right-middle .recommend li a{
+    color: #2a333c;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.right-middle .recommend li a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.right .all{
+    width: 100%;
+    height: 24px;
+    /*background: lightgreen;*/
+    /*margin-bottom: 1px;*/
+    font-size: 16px;
+    color: #2a333c;
+    transition: 0.3s;
+}
+.right .all:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.right-middle p a{
+    font-size: 16px;
+    color: #2a333c;
+    line-height: 24px;
+}
+
+/*白条开始*/
+.white{
+    width: 100%;
+    height: 20px;
+    background: white;
+}
+
+
+.finally-box{
+    width: 100%;
+    height: 165px;
+    padding-bottom: 20px;
+    background: #f5f5f5;
+}
+
+/*.finally-text .text1 a{*/
+/*color: #32a8ea;*/
+/*}*/
+
+.finally-logo{
+    width: 100%;
+    height: 46px;
+    padding: 5px 0;
+    margin-top:20px;
+    /*margin-bottom: 5px;*/
+    /*background: #000;*/
+}
+.finally-logo .finally-list .finally-item img{
+    width: 26px;
+    height: 26px;
+    margin-right: 12px;
+}
+.finally-logo .finally-list .finally-item{
+    float: left;
+    line-height: 40px;
+}
+
+
+.finally-box .finally-logo .finally-list{
+    width: 140px;
+    height: 40px;
+    /*background: red;*/
+    margin: 0 auto;
+    padding: 10px 0 0 0;
+}
+.finally-text{
+    width: 1280px;
+    height: 100px;
+    /*background: #f3cfd3;*/
+    margin: 0 auto;
+}
+.finally-text p{
+    width: 100%;
+    height: 25px;
+    /*background: #aad1e2;*/
+    text-align: center;
+}
+.finally-text p a{
+    font-size: 14px;
+    color: #62a8ea;
+}
+.finally-text p:nth-child(3),.finally-text p:nth-child(4){
+    font-size: 14px;
+    color: #aaaaaa;
+
+}
+.finally-text p:nth-child(2) a:hover{
+    color: #16b0dc;
+    text-decoration: underline;
+}
+.finally-text p:nth-child(2) {
+    transition: 0.5s;
+}
+
+
+
+
+
